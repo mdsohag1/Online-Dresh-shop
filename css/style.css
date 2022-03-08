@@ -1,0 +1,522 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* start header */
+header nav{
+   background-color: #fff;
+   height: 80px;
+}
+header nav ul{
+   background-color: #fff;
+}
+
+header nav .container{
+   display: flex;
+   justify-content: space-between;
+}
+header nav .container .navbar-brand{
+   font-size: 23px;
+}
+header nav ul.main-nav{
+   margin-right: -148px;
+   z-index: 1;
+}
+header nav ul.main-nav li{
+   margin-right: 15px;
+}
+header .navbar-light .navbar-nav .nav-link:hover{
+   color:rgb(221, 14, 14);
+}
+
+header nav ul.navbarIcon{
+   margin-left: 150px;
+}
+header nav ul.navbarIcon li{
+   display: flex;
+   align-items: center;
+}
+header nav ul.navbarIcon li a{
+   margin: 0 8px;
+}
+header nav ul.navbarIcon li a i{
+   font-size: 18px;
+}
+header nav ul.navbarIcon li a:hover i.bi{
+   color: rgb(221, 14, 14);
+}
+header nav ul.navbarIcon li span{
+   position: absolute;
+   margin-top: -6px;
+   margin-left: -10px;
+}
+/* end header */
+
+/* start slider section */
+
+section.slider-section .section-header{
+   position: relative;
+}
+section.slider-section .section-header img{
+   height: 100%;
+}
+section.slider-section .section-header .text{
+   width: 400px;
+   position: absolute;
+   top: 40%;
+   left: 133px;
+}
+section.slider-section .section-header .text h2{
+   font-size: 50px;
+   margin: 20px 0;
+}
+section.slider-section .section-header .text p{
+   font-size: 20px;
+}
+section.slider-section .section-header .text .btn{
+   padding: 8px 30px;
+}
+/* end slider section */
+
+
+ /* start banner section */
+ section.banner .row{
+    margin-top: 80px;
+    padding: 30px;
+ }
+ section.banner .row .card{
+   height: 264px;
+ }
+ section.banner .row .card img{
+    height: 100%;
+ }
+ section.banner .row .card .btn-light{
+    width: 150px;
+   position: absolute;
+   top: 50%;
+   left: 33%;
+   padding: 10px 20px;
+   font-weight: bolder;
+   border-radius: 10px;
+   transition: all .3s ease;
+ }
+ section.banner .row .card .btn-light:hover{
+    background-color: rgb(219, 48, 48);
+    color: #fff;
+    border-color: rgb(219, 48, 48);
+ }
+ /* end banner section */
+
+ /* start arrivals section */
+ section.arrivals{
+    margin: 80px 0;
+ }
+ section.arrivals hr{
+    width: 50px;
+    height: 4px;
+    margin: 20px auto;
+    color: red;
+    border: none;
+    background-color: red;
+ }
+
+ section.arrivals .btn-section{
+    text-align: center;
+ }
+ section.arrivals .btn-section .btn-group .btn{
+    padding: 5px 30px;
+ }
+ section.arrivals .row{
+    margin-top: 50px;
+ }
+ section.arrivals .row .card{
+    margin-bottom: 50px;
+ }
+ section.arrivals .row .card:hover{
+    margin-bottom: 0;
+ }
+ section.arrivals .card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    position: relative;
+ }
+ section.arrivals .card .card-body span{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+ }
+ section.arrivals .card .card-body i{
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    display: none;
+ }
+ section.arrivals .card .card-body img{
+    height: 190px;
+ }
+ section.arrivals .card .card-body h5{
+    color: rgb(219, 48, 48);
+ }
+ section.arrivals .card .card-body i:hover{
+   color:rgb(221, 14, 14);
+   font-size: 20px;
+ }
+ section.arrivals .card .card-body button{
+    position: absolute;
+    bottom: 0;
+    display: none;
+ }
+ section.arrivals .card .card-body:hover i{
+   display: block;
+ }
+ section.arrivals .card .card-body:hover button{
+    display: block;
+ }
+ section.arrivals .card .card-body:hover{
+    height: 350px;
+ }
+ section.arrivals .mixitup-control-active{
+    background-color: rgb(221, 14, 14);
+    color: #fff;
+ }
+ /* end arrivals section */
+
+
+/* start weak-deal-timer  */
+.week-deal-timer{
+   padding: 30px;
+}
+.week-deal-timer .row{
+   margin: 0 100px;
+}
+.week-deal-timer h2{
+   margin-top: 100px;
+   font-weight: bold;
+}
+.week-deal-timer hr{
+   width: 80px;
+   height: 5px;
+   color: red;
+   opacity: 1;
+   border-radius: 50px;
+}
+.countdown-wrapper{
+   margin-top: 25px;
+}
+#getting-started{
+   display: flex;
+   font-size: 20px;
+}
+#getting-started div{
+   padding: 25px 0;
+   text-align: center;
+   background-color: #fff;
+   width: 100px;
+   height:100px;
+   margin-right: 20px;
+   border-radius: 50%;
+   box-shadow: 5px 10px 10px rgba(0,0,0,0.15);
+}
+#getting-started div span{
+   font-size: 30px;
+   display: block;
+   font-weight: bolder;
+   color:rgb(221, 14, 14);
+}
+#getting-started div span:nth-child(2){
+   font-size: 15px;
+   text-transform: uppercase;
+   font-weight: 400;
+   color: #000;
+}
+.week-btn{
+   padding: 8px 30px;
+   color: #fff;
+   background-color: #000;
+   outline: none;
+   margin-top: 50px;
+   transition: all .3s ease;
+   border-radius: 5px;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+.week-btn:hover{
+   background-color: #fff;
+   color: #000;
+}
+
+/* end weak-deal-timer  */
+
+
+/* start best sellers */
+.best-sellers{
+   margin-top: 100px;
+   padding: 0 20px;
+   margin-bottom: 100px;
+}
+.best-sellers .card{
+   border-radius: 10px;
+}
+.best-sellers .card-body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 300px;
+   position: relative;
+   text-align: center;
+}
+.best-sellers .card:hover{
+   box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.best-sellers .card-body img{
+   height: 190px;
+}
+.best-sellers .card-body i{
+   display: none;
+   position: absolute;
+   top: 3%;
+   right: 3%;
+}
+.best-sellers .card-body i:hover{
+   color: rgb(221, 14, 14);
+   font-size: 30px;
+}
+.best-sellers .card-body:hover i{
+   display: block;
+}
+.best-sellers .card-body span{
+   display: none;
+   position: absolute;
+   top: 3%;
+   left: 3%;
+}
+.best-sellers .card-body:hover span{
+   display: block;
+}
+.main-carousel{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 150px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+   background-color:rgb(211, 21, 21);
+}
+.owl-theme .owl-dots .owl-dot:hover span{
+   background-color: rgb(211, 21, 21);
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+   width: 30px;
+   /* height: 50px; */
+   font-size: 50px;
+   /* border: 1px solid #000; */
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   position: absolute;
+   top: 35%;
+
+}
+.owl-carousel .owl-nav button.owl-next{
+   right: -7%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+   left: -7%;
+}
+.best-sellers hr{
+   width: 50px;
+   height: 4px;
+   margin: 20px auto;
+   color: red;
+   border: none;
+   background-color: red;
+   opacity: 1;
+}
+
+/* end best sellers */
+
+
+/* start policy */
+.policy span{
+   color:rgb(221, 14, 14);
+   font-size: 35px;
+   margin: 0 20px;
+}
+.policy .blog-col{
+   padding: 20px 0px;
+   justify-content: center;
+   align-items: center;
+}
+.policy .blog-col h5{
+   text-transform: uppercase;
+}
+/* end policy */
+
+
+/* start blog */
+.blog{
+   margin: 100px 0;
+}
+.blog hr{
+   width: 50px;
+   height: 4px;
+   margin: 20px auto;
+   color: red;
+   border: none;
+   background-color: red;
+   opacity: 1;
+}
+.blog .row{
+   margin-top: 30px;
+}
+.card-hover{
+   background-color: #fff;
+   position: absolute;
+   width: 317px;
+   height: 182px;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   padding: 20px;
+   opacity: 0;
+   transition: all .3s ease;
+   transform: scale(.7);
+}
+.card-hover a{
+   color:rgb(221, 14, 14);
+}
+.blog .card:hover .card-hover{
+   transform: scale(1);
+   opacity: 1;
+}
+/* end blog */
+
+/* start footer */
+footer .footer-form{
+   padding: 20px 0;
+}
+footer .footer-form input{
+   padding: 10px;
+   width: 400px;
+   font-weight: bold;
+   font-size: 17px;
+   outline: none;
+}
+footer .footer-form button{
+   padding: 10px 30px;
+}
+footer .nav-item .nav-link{
+   padding-left: 0;
+   padding-right: 30px;
+   color: rgb(131, 128, 128);
+}
+footer .nav-item .nav-link:hover{
+   color:rgb(221, 14, 14);
+   transition: all .3s ease;
+}
+/* end footer */
+
+
+
+
+
+/* responsive */
+
+/* tablet view */
+@media (max-width:992px){
+   .week-deal-timer{
+      padding: 0;
+   }
+   .week-deal-timer .row{
+      margin: 0;
+   }
+   .best-sellers{
+      margin-top: 50px;
+      padding: 0;
+      margin-bottom: 50px;
+   }
+   .best-sellers .card{
+      border-radius: 10px;
+   }
+
+   .main-carousel{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 50px;
+   }
+   .owl-carousel .owl-nav button.owl-next{
+      right: -10%;
+   }
+   .owl-carousel .owl-nav button.owl-prev{
+      left: -10%;
+   }
+
+
+   section.slider-section .section-header img{
+      height: 400px;
+   }
+   section.slider-section .section-header .text{
+      width: 300px;
+      position: absolute;
+      top: 30%;
+      left: 10px;
+   }
+   section.slider-section .section-header .text h2{
+      font-size: 30px;
+      margin: 20px 0;
+   }
+   section.slider-section .section-header .text p{
+      font-size: 17px;
+   }
+   section.slider-section .section-header .text .btn{
+      padding: 4px 20px;
+   }
+   section.banner .row{
+      margin-top: 0;
+      padding: 0;
+   }
+   section.arrivals .btn-section .btn-group .btn{
+      padding: 0 15px;
+      font-size: 10px;
+   }
+
+   footer .form{
+      flex-direction: column;
+   }
+   footer ul.nav{
+      flex-direction: column;
+   }
+
+}
+
+/* mobile view */
+
+@media (max-width: 768px){
+   footer .footer-form{
+      padding: 0;
+      flex-direction: column;
+   }
+   footer .form{
+      flex-direction: column;
+      width: 100%;
+   }
+   footer .footer-form input{
+      padding: 10px;
+      width: 100%;
+      font-weight: bold;
+      font-size: 15px;
+      outline: none;
+   }
+
+}
