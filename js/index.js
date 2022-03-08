@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-   $('#getting-started').countdown('2022/03/09', function(event){
+   $('#getting-started').countdown('2023/03/09', function(event){
       $(this).html(event.strftime('<div><span>%D</span><span>days</span></div> <div><span>%H</span><span>Hr</span></div> <div><span>%M</span><span>Min</span></div> <div><span>%S</span><span>Sec</span></div>'));
    });
 });
